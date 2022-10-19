@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>等等我...</title>
+	<link rel="icon" href="https://about19.oss-cn-hangzhou.aliyuncs.com/blog/ico.jpg" type="image/x-icon">
+	<link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="../css/default.css">
+  	<link rel="stylesheet" href="../css/style.min.css">
+	<script src="https://lf9-cdn-tos.bytecdntp.com/cdn/expire-1-M/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+	<link rel="stylesheet" href="https://about19.oss-cn-hangzhou.aliyuncs.com/cel/tanc/sweetalert.css">
+  	<style>
+		a {
+		  color: inherit;
+		  text-decoration: none;
+		  border-bottom: gray dashed 1px;
+		  /*cursor: crosshair;*/
+		}
+
+		#sticker {
+		  display: block;
+		  user-select: none;
+		  cursor: pointer;
+		}
+
+		h1.title {
+		  font-weight: lighter;
+		  letter-spacing: .25em;
+		  color: #000;
+		}
+
+		.description {
+		  color: #000;
+		  text-align: center;
+		  letter-spacing: .1em;
+		  padding-bottom: 8px;
+		}
+
+		.links a {
+		  border: none;
+		}
+
+		.links > *::after {
+		  content: '|';
+		  margin: 0 0.5rem;
+		  color: #ff7500;
+		}
+		.links > *:last-child::after {
+		  content: '';
+		}
+		.mm-menu__items>li:hover{
+			background-color: skyblue;
+		}
+	</style>
+</head>
+<body>
+	<div id="wrapper" class="wrapper">
+	  <header class="header htmleaf-header" style="float: left;"></header>
+	  
+    <iframe src="https://space.bilibili.com/1501208695/album" marginheight="0" marginwidth="0" frameborder="0" scrolling="yes" width="100%" height="100%" id="iframepage" name="iframepage"  ></iframe>
+	<script type="text/javascript">
+	   var height=$(window).height()-30;
+	   $("#iframepage").attr("height",height);
+	</script>
+
+	</div><!-- /wrapper -->
+
+	<button id="mm-menu-toggle" class="mm-menu-toggle">菜单</button>
+	<nav id="mm-menu" class="mm-menu">
+	  <div class="mm-menu__header">
+	    <h2 class="mm-menu__title" >namic</h2>
+	  </div>
+	  <ul class="mm-menu__items">
+	    <li class="mm-menu__item">
+	      <a class="mm-menu__link" href="../">
+	        <span class="mm-menu__link-text"><i class="fa fa-home" style="font-size:18px;"></i>&emsp;主页</span>
+	      </a>
+	    </li>
+	    <li class="mm-menu__item">
+	      <a class="mm-menu__link" href="../archives">
+	        <span class="mm-menu__link-text"><i class="fa fa-archive" style="font-size:18px;"></i>&emsp;时间轴</span>
+	      </a>
+	    </li>
+	    <li class="mm-menu__item">
+	      <a class="mm-menu__link" href="../message">
+	        <span class="mm-menu__link-text"><i class="fa fa-comments" style="font-size:18px;"></i>&emsp;留言板</span>
+	      </a>
+	    </li>
+	    <li class="mm-menu__item">
+	      <a class="mm-menu__link" href="../music">
+	        <span class="mm-menu__link-text"><i class="fa fa-music" style="font-size:18px;"></i>&emsp;音乐</span>
+	      </a>
+	    </li>
+	    <li class="mm-menu__item">
+	      <a class="mm-menu__link" href="#">
+	        <span class="mm-menu__link-text"><i class="fa fa-image" style="font-size:18px;"></i>&emsp;相册</span>
+	      </a>
+	    </li>
+	  </ul>
+	</nav><!-- /nav -->
+	
+	<script src="../js/materialMenu.min.js"></script>
+	<script>
+	  var menu = new Menu;
+	</script>
+
+<script>
+	  var _hmt = _hmt || [];
+	  (function() {
+	    var hm = document.createElement("script");
+	    hm.src = "https://hm.baidu.com/hm.js?fb23400d6a429999ae2245a0e37e84ac";
+	    var s = document.getElementsByTagName("script")[0]; 
+	    s.parentNode.insertBefore(hm, s);
+	  })();
+</script>
+<script>
+// function welcome(){
+//     let welcome_text = '一起运动呀'
+//     if(document.referrer!==''){
+//         let referrer=document.referrer.split("/")[2];
+//         welcome_text="欢迎你，来自"+referrer.toUpperCase()+"的用户！";//获取用户来源域名
+//     }
+//     swal({
+//         title: " 欢迎！",
+//         text: welcome_text+'\n一起打卡呀😊😊😊',
+//         imageUrl: "https://about19.oss-cn-hangzhou.aliyuncs.com/blog/ico.jpg",//图片，自行修改位置
+//         timer: 5000,//弹出时间
+//         showConfirmButton: true
+//     });
+// }
+// $(document).ready(()=>{//若未引用JQuery，请引用
+//     welcome()
+// })
+
+</script>
+</body>
+</html>
